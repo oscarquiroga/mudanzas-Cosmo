@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+.header-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/milky-way-2695569.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header-home .titulo-home{
+    font-size: 100px;
+    text-shadow: -1px 0px 7px rgba(0,0,0,0.99);
+}
+.header-home .subtitulo-home{
+    font-size: 35px;
+    text-shadow: -1px 0px 7px rgba(0,0,0,0.99);
+}
+.header-home .calltoaction-1-home{
+    display: inline-block;
+    border: white 2px solid;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    font-size: 25;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #00BB2D;
+}
+.sesgo-abajo-home{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 15vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+.menu-resp{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1b193b;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+#btn-menu{
+    display: none;
+}
+.menu-resp label{
+    display: none;
+    width: 10%;
+    padding: 10px;
+    border-right: 1px solid #1b193b;
+}
+.menu-resp label img{
+    width: 100%;
+    height: 100%;
+}
+.menu-resp label:hover{
+    cursor: pointer;
+    background-color: #403b81;
+}
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu li{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu li a{
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: all 200ms;
+}
+.menu li a:hover{
+    transition: all 100ms ease-out;
+    background: rgb(0,125,255);
+    background: linear-gradient(90deg, rgba(0,125,255,1) 0%, rgba(64,141,181,1) 100%);
+    color:  rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 12px 25px;
+}
+.more-home{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.more-home .titulo-more{
+    font-size: 60px;
+    font-weight: 400;
+    padding: 20px;
+    text-align: center;
+}
+.more-home .texto-more{
+    font-size: 25px;
+    font-weight: 100;
+    padding: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.info-home{
+    background-color: #567bf5;
+}
+.info-home .ordn-map{
+    display: flex;
+    justify-content: space-evenly;
+}
+.info-home .titulo-map{
+    font-size: 60px;
+    font-weight: 300;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.ordn-map .mapa{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+}
+.cont-texto{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+.contacto-home{
+    background-color: #567bf5;
+    text-align: center;
+    padding: 20px;
+}
+.contacto-home .titulo-contacto{
+    font-size: 60px;
+    font-weight: 200;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.contacto-home .calltoaction-home-2{
+    display: inline-block;
+    text-align: center;
+    border: 3px solid white;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #00BB2D;
+}
+.img-galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.img-galeria .imgs{
+    width: 60%;
+    border-radius: 20px;
+}
+.footer-home{
+    background-color: #1d1d1d;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+.footer-home p{
+    font-size: 25px;
+}
+.footer-home a{
+    display: inline-block;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 10px;
+}
